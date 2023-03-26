@@ -24,7 +24,7 @@ class Question:
         return str(f"Вопрос: {self.text_voprosa}\nСложность {self.slojnost}/5")
 
     def positive_feedback(self):
-        return str(f"Ответ верный, получено {self.balls} баллов")
+        return str(f"Ответ правильныйg, получено {self.balls} баллов")
 
     def negative_feedback(self):
         return str(f"Ответ не верный, верный ответ {self.vernii_variant}!")
