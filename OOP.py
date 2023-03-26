@@ -36,3 +36,6 @@ while schetchikvoprosov < len(questions):
 
 
 allfunction.pokasz_staty(questions)
+
+s, k = [10, 5]
+print(type(s), type(k))

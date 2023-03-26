@@ -28,3 +28,4 @@ class Question:
 
     def negative_feedback(self):
         return str(f"Ответ не верный, верный ответ {self.vernii_variant}!")
+
